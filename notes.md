@@ -32,6 +32,8 @@ https://www.markdownguide.org/cheat-sheet/
 # C
 
     #include <stdio.h>
+    
+    End of line ;
 
     gcc filenamein.c -o progNameOut
 
@@ -43,8 +45,30 @@ https://www.markdownguide.org/cheat-sheet/
     escape charactera \n newline \t tab \r carriage return
 
     int main() {
-        printf("Hello Leah!\n");
+        if (value == value){
+            printf("Values match\n");
+        } else if (condition true){
+            printf("Values are different\n");
+        } else { //everything else and optional
+
+        }
+
+        switch (grade) {
+         case 9:
+          printf("Freshman\n");
+          break;
+         case 10:
+          printf("Sophomore\n");
+          break;
+         default:
+          break;
+        
     }
+
+    Ternary operators
+
+    min = a < b ? a : b;
+    if a is less than b ? then do the part this side of : else do this part;
 
     int 	a whole number 	-2,147,483,648 to 2,147,483,647
     float 	a number with possible decimals 	6 decimal places
@@ -56,6 +80,17 @@ https://www.markdownguide.org/cheat-sheet/
     int day = 3;
     printf("Hello World, today is the %ird!", day);
 
+    increment by 1 variable++ or var--
+    a = 10
+    b = 5
+    c += b
+    c = 15
+    also -= /= *= %=
+
+    Logical Operators
+    && = and
+    || = or
+    != = not equal
     symbol 	type
     %d or %i 	int
     %f 	double or float
