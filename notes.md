@@ -2,7 +2,57 @@
 
 https://www.markdownguide.org/cheat-sheet/
 
+# C#
 
+    using System;
+
+    namespace HelloWorld
+    {
+      class Program
+      {
+        static void Main()
+        {
+          Console.WriteLine("Hello Leah");    
+         }
+      }
+    }
+
+    double pow_ab = Math.Pow(6, 2); 
+    Console.WriteLine(pow_ab);
+    .toUpper()
+
+    string str = "Divyesh"; 
+ 
+    // Finding the index of character  
+    // which is present in string and 
+    // this will show the value 5 
+    int index1 = str.IndexOf('s');
+
+    string myString = "Divyesh";
+    string test1 = myString.Substring(2);
+
+    // Concatenate two string variables    
+    string name = firstName + " " + lastName;    
+    Console.WriteLine(name);
+    //Ths code will output Divyesh Goardnan
+
+    
+    // Call ToLower instance method, which returns a new copy.
+    string lower = mixedCase.ToLower();
+    //variable lower contains "this is a mixed case string."
+
+    string a = "One example";
+    Console.WriteLine("LENGTH: " + a.Length);
+    // This code outputs 11
+
+    // We can use an expression with a string interpolation.
+    string multipliedNumber = $"The multiplied ID is {id * 10}.";
+    Console.WriteLine(multipliedNumber);
+    // This code would output "The multiplied ID is 1000."
+
+    Console.WriteLine("Enter your name: "); 
+    name = Console.ReadLine();
+ 
 
 # Python
 
