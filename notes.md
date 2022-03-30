@@ -17,6 +17,40 @@ https://www.markdownguide.org/cheat-sheet/
       }
     }
 
+## Conditionals
+    int num = 1;
+
+    if( num == 1 && true){
+        COnsole.WriteLine("If statement");
+        }
+        else if (num == 2){
+            Console.WriteLine("Dont forget capital L");
+        }
+        else {
+            Something
+        }
+
+    switch (num)
+    {
+      case 1:
+        Some action;
+        break; // exit switch statement
+      case 2:
+        Another action;
+        break;
+      default:          //required
+        If no other actions performed;
+        break;
+    }
+
+    Ternary Operator... if else on one line.
+    string color = "blue";
+    string result = (color == "blue") ? "blue" : "NOT blue";
+
+      int pepperLength = 4;
+      string message = (pepperLength >= 3.5) ? "ready!": "wait a little longer";
+      Console.WriteLine(message); //prints ready!
+
     double pow_ab = Math.Pow(6, 2); 
     Console.WriteLine(pow_ab);
     .toUpper()
