@@ -21,7 +21,7 @@ https://www.markdownguide.org/cheat-sheet/
     int num = 1;
 
     if( num == 1 && true){
-        COnsole.WriteLine("If statement");
+        Console.WriteLine("If statement");
         }
         else if (num == 2){
             Console.WriteLine("Dont forget capital L");
@@ -55,7 +55,12 @@ https://www.markdownguide.org/cheat-sheet/
     Console.WriteLine(pow_ab);
     .toUpper()
 
+    string example   = "Hi There!";
+    string uppercase = example.ToUpper();
+    // Result: "HI THERE!"
+
     string str = "Divyesh"; 
+    int length = str.Length;
  
     // Finding the index of character  
     // which is present in string and 
